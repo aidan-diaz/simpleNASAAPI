@@ -35,14 +35,27 @@ main,
   text-align: center;
 }
 
-/* div {
-  height: 250px;
-  width: 250px;
-} */
+.mainTop {
+  margin-top: 100px;
+}
+
+.NASA {
+  height: 400px;
+  width: 400px;
+}
+
+.NASAImg {
+  width: 100%;
+  height: 100%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+body {
+  background-image: url('assets/thumbnail.jpg');
+}
 
 h2,
 h3 {
@@ -60,4 +73,13 @@ img{
 
 .hidden {
   display: none;
+}
+
+body {
+  color: white;
+}
+
+.descriptionContainer,
+.NASA {
+  background-color: rgba(0, 0, 0, 0.75);
 }
